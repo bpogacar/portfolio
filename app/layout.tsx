@@ -1,11 +1,17 @@
+import SplashCursor from "./components/SplashCursor"
+import "./globals.css"
+
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <SplashCursor />
+        {children}
+      </body>
     </html>
   )
 }
