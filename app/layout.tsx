@@ -9,7 +9,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SplashCursor />
+        <SplashCursor 
+          SPLAT_RADIUS = {0.01}
+          SPLAT_FORCE = {8000}
+        />
         {children}
       </body>
     </html>

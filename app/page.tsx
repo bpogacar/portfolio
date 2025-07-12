@@ -1,5 +1,3 @@
-import SplashCursor from "./components/SplashCursor"
-
 export default function Homepage() {
     return (
         <div>
