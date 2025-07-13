@@ -1,6 +1,6 @@
 export default function Homepage() {
     return (
-        <div>
+        <div className="">
             <h1>Hello!</h1>
         </div>
     )
